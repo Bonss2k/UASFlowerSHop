@@ -11,6 +11,7 @@
     text-transform: capitalize;
     transition: .2s linear;
 }
+
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -33,6 +34,7 @@ section{
 .heading span{
     color:var(--pink);
 }
+
 /*header section starts*/
 header{
     position: fixed;
@@ -90,3 +92,37 @@ header .fa-bars{
     display: none;
 }
 /*header section ends*/
+
+/*home section starts*/
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background:url(home-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    max-width: 50rem;
+}
+
+.home .content h3{
+    font-size: 6rem;
+    color:#333;
+}
+
+.home .content span{
+    font-size: 3.5rem;
+    color:var(--pink);
+    padding:1rem 0;
+    line-height: 1.5;
+}
+
+.home .content p{
+    font-size: 1.5rem;
+    color:#999;
+    padding:1rem 0;
+    line-height: 1.5;
+}
+/*home section ends*/
